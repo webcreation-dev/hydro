@@ -21,12 +21,30 @@ body {
 .section-white {
   background-image: url(mer.png);
   background-size: cover;
-  background-size: 1350px 610px;
+  background-size: contain;
+  background-size: 1350px 710px;
+  position: relative;
+	overflow: hidden;
 }
+
+
+.section-test {
+  background-image: url(mer.png);
+  background-size: cover;
+  background-size: contain;
+  background-size: 1350px 710px;
+  position: relative;
+	overflow: hidden;
+}
+
 
 .section-two {
   background-image: url(bg2.jpeg);
-  background-size: 1350px 620px
+  background-size: cover;
+  background-size: contain;
+  background-size: 1350px 710px;
+  position: relative;
+	overflow: hidden;
 }
 
 .footer {
@@ -35,9 +53,10 @@ body {
 }
 
 #carte:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 #carte {
   transition: transform 1s 0.2s ease-in-out;
+  transform: scale(1.2);
 }

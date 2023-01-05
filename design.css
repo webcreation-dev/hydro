@@ -31,8 +31,8 @@ body {
   .section-test {
     background-image: url(mer.png);
     background-size: cover;
-    background-size: contain;
-    background-size: 1350px 710px;
+    /* background-size: contain; */
+    /* background-size: 1350px 710px; */
     position: relative;
       overflow: hidden;
   }
@@ -41,8 +41,8 @@ body {
   .section-two {
     background-image: url(bg2.jpeg);
     background-size: cover;
-    background-size: contain;
-    background-size: 1350px 710px;
+    /* background-size: contain; */
+    /* background-size: 1350px 710px; */
     position: relative;
       overflow: hidden;
   }
@@ -53,11 +53,11 @@ body {
   }
   
   #carte:hover {
-    transform: scale(1.4);
+    transform: scale(1.6);
   }
   
   #carte {
     transition: transform 1s 0.2s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
   

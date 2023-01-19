@@ -60,4 +60,14 @@ body {
     transition: transform 1s 0.2s ease-in-out;
     transform: scale(1.5);
   }
+
+
+  #globe:hover {
+    transform: scale(1.6);
+  }
+  
+  #globe {
+    transition: transform 1s 0.2s ease-in-out;
+    transform: scale(1.5);
+  }
   
